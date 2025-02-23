@@ -1,7 +1,8 @@
 [package]
-name = "untitled"
-version = "0.1.0"
-edition = "2024"
+name = "cube"
+version = "1.0.0"
+edition = "2021"
 
-[dependencies]
-libm = "0.2.11"
+[[bin]]
+name = "cube"
+path = "src/cube.rs"
